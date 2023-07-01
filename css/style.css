@@ -1,0 +1,188 @@
+html
+{
+	background-color: #000;
+
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	font-size: 100px;
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	color: #111;
+}
+h1 span 
+{
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	animation: animate 2s linear infinite;
+}
+h1 span:nth-child(1)
+{
+	animation-delay: 0s;
+}
+h1 span:nth-child(2)
+{
+	animation-delay: 0.15s;
+}
+h1 span:nth-child(3)
+{
+	animation-delay: 0.3s;
+}
+h1 span:nth-child(4)
+{
+	animation-delay: 0.45s;
+}
+h1 span:nth-child(5)
+{
+	animation-delay: 0.6s;
+}
+h1 span:nth-child(6)
+{
+	animation-delay: 0.75s;
+}
+h1 span:nth-child(7)
+{
+	animation-delay: 0.9s;
+}
+h1 span:nth-child(8)
+{
+	animation-delay: 1.05s;
+}
+h1 span:nth-child(9)
+{
+	animation-delay: 1.2s;
+}
+h1 span:nth-child(10)
+{
+	animation-delay: 1.35s;
+}
+h1 span:nth-child(11)
+{
+	animation-delay: 1.5s;
+}
+h1 span:nth-child(12)
+{
+	animation-delay: 1.65s;
+}
+h1 span:nth-child(13)
+{
+	animation-delay: 1.80s;
+}
+
+@keyframes animate
+{
+	0%,100%
+	{
+		color: #f1f1f1;
+		filter: blur(2px);
+		text-shadow:0 0 10px firebrick ,
+		0 0 20px firebrick ,
+		0 0 40px firebrick ,
+		0 0 80px firebrick ,
+		0 0 120px firebrick ,
+		0 0 200px firebrick ,
+		0 0 400px firebrick ,
+		0 0 600px firebrick ,
+		0 0 800px firebrick ,
+		0 0 1000px firebrick ,
+		0 0 1500px firebrick ,
+		0 0 2000px firebrick ,
+		0 0 3000px firebrick ; 
+	}
+	5%,95%
+	{
+		color: #111;
+		filter: blur(0px);
+		text-shadow: none;
+	}
+}
+.app 
+{
+	
+	width:100%;
+	height: 200px;
+	display: inline-flex;
+	justify-content: center;
+}
+.box
+{
+	margin-top: 250px;
+
+}
+
+.box button
+{
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	display: table-cell;
+	cursor: pointer;
+	margin: 5 20px;
+	padding: 15px;
+	background-color: firebrick;
+	color: ttransparen;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+/*	border: 3px solid;
+	border-color: firebrick;*/
+
+}
+
+.box #b1 
+{
+	right: 50%;
+	top: 255px;
+	left: 500px;
+	
+}
+
+.box #b2:hover
+{
+	letter-spacing: 5px;
+	background-color: var(--clr);
+	border: 2px solid firebrick;
+	color: firebrick;
+	filter: blur;
+	box-shadow: 0 0 30px firebrick;
+}
+.box #b1:hover
+{
+	letter-spacing: 5px;
+	background-color: var(--clr);
+	border: 2px solid firebrick;
+	color: firebrick;
+}
+
+.ily 
+{
+	color: firebrick;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	margin: 0 none;
+	padding: 10px;
+	text-align: center;
+	display: inline-flex;
+}
+.ily h1
+{
+	color: firebrick;
+}
+ily img
+{
+	width: 100%;
+	height: 100%;
+
+}
